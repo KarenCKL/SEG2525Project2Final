@@ -273,35 +273,35 @@ ul {
   color: #000 !important;
   border-color: #989da1 !important;
 }
-.table{
-    border: #000 !important;
+.table {
+  border: #000 !important;
 }
-.open{
-    background-color: #00B050!important;
+.open {
+  background-color: #00b050 !important;
 }
-.beginner{
-    background-color:#0070C0 !important;
+.beginner {
+  background-color: #0070c0 !important;
 }
-.intermediate{
-    background-color:#7030A0 !important;
-}  
-.advanced{
-    background-color: #BF4E14 !important;
+.intermediate {
+  background-color: #7030a0 !important;
 }
-.close{
-    background-color: rgb(179, 8, 8) !important;
+.advanced {
+  background-color: #bf4e14 !important;
+}
+.close {
+  background-color: rgb(179, 8, 8) !important;
 }
 .circle-icon {
-    align-items: center;
-    background-color: #6c757d;
-    border-radius: 50%;
-    color: #fff;
-    display: inline-flex;
-    font-size: 15px;
-    font-weight: 700;
-    height: 35px;
-    justify-content: center;
-    width: 55px;
+  align-items: center;
+  background-color: #6c757d;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 700;
+  height: 35px;
+  justify-content: center;
+  width: 55px;
 }
 
 /* large screens */
@@ -328,10 +328,10 @@ ul {
     margin-top: 3% !important;
     margin-bottom: 4% !important;
   }
-  .submit{
+  .submit {
     display: flex !important;
     justify-content: end !important;
-}
+  }
 }
 /* extra large screens */
 @media (min-width: 1560px) {
@@ -394,6 +394,18 @@ ul {
     margin-top: 10px !important;
     width: 150px;
   }
+  .circle-icon {
+    align-items: center;
+    background-color: #6c757d;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px !important;
+    justify-content: center;
+    width: 150px !important;
+  }
 }
 
 /*small screens */
@@ -444,5 +456,29 @@ ul {
   #loginIdBtn {
     width: 150px !important;
     margin-top: 20px !important;
+  }
+  .circle-icon {
+    align-items: center;
+    background-color: #6c757d;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px !important;
+    justify-content: center;
+    width: 60px !important;
+  }
+  .circle-icon {
+    align-items: center;
+    background-color: #6c757d;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px !important;
+    justify-content: center;
+    width: 150px !important;
   }
 }
