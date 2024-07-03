@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SEG3525Project2Final/static/css/main.23aed479.css",
-    "main.js": "/SEG3525Project2Final/static/js/main.e57a7207.js",
+    "main.css": "/SEG3525Project2Final/static/css/main.a3faa7d7.css",
+    "main.js": "/SEG3525Project2Final/static/js/main.25ca1b33.js",
     "static/js/453.1f10bbfe.chunk.js": "/SEG3525Project2Final/static/js/453.1f10bbfe.chunk.js",
     "static/media/background.png": "/SEG3525Project2Final/static/media/background.ba738bea4a14558d7b84.png",
     "static/media/E1.webp": "/SEG3525Project2Final/static/media/E1.f99adb794a2248cc518f.webp",
@@ -33,12 +33,12 @@
     "static/media/linkedin.svg": "/SEG3525Project2Final/static/media/linkedin.b41418e2d47157a606dadbbe7073cb5d.svg",
     "static/media/facebook.svg": "/SEG3525Project2Final/static/media/facebook.9c77ac2740446eb282dfd7b913e45119.svg",
     "static/media/twitter-x.svg": "/SEG3525Project2Final/static/media/twitter-x.58a2bae5bfd8b3525d8fd557d3b8d82e.svg",
-    "main.23aed479.css.map": "/SEG3525Project2Final/static/css/main.23aed479.css.map",
-    "main.e57a7207.js.map": "/SEG3525Project2Final/static/js/main.e57a7207.js.map",
+    "main.a3faa7d7.css.map": "/SEG3525Project2Final/static/css/main.a3faa7d7.css.map",
+    "main.25ca1b33.js.map": "/SEG3525Project2Final/static/js/main.25ca1b33.js.map",
     "453.1f10bbfe.chunk.js.map": "/SEG3525Project2Final/static/js/453.1f10bbfe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23aed479.css",
-    "static/js/main.e57a7207.js"
+    "static/css/main.a3faa7d7.css",
+    "static/js/main.25ca1b33.js"
   ]
 }
