@@ -102,20 +102,20 @@ export default function guides() {
                 <Row className='mt-5'>
                     <h5 className='text-secondary fs-4 mb-4'>3. Learn to play at different speeds</h5>
                     <Col>
-                        <p>
-                            Varying the speed and power of your shots can make you a more unpredictable opponent and keep your opponents on their toes. Here are a few ways you can change the speed of your shots:
-                        </p>
-                        <p>
-                            Use a lighter grip on your racket: By using a lighter grip on your racket, you’ll be able to hit softer shots that have less power and spin. This can be useful for hitting drop shots or for placing the shuttlecock in a specific part of the court.
-                        </p>
-                        <p>
-                            Add spin to the shuttlecock: By adding topspin or backspin to the shuttlecock, you’ll be able to slow it down and make it dip more after it crosses the net. This can be useful for hitting deceptive shots or for setting up a slower, more controlled rally.
-                        </p>
-                        <p>
-                            Hit the shuttlecock earlier or later in its descent: By hitting the shuttlecock earlier or later in its descent, you’ll be able to change the pace of the rally. Hitting the shuttlecock earlier will give it more power and speed, while hitting it later will give it less power and spin.
-                        </p>
-                        <p>In addition to these techniques, it’s also important to vary the placement of your shots. By hitting the shuttlecock to different parts of the court, you’ll be able to keep your opponents guessing and force them to move around the court.
-                        </p>
+                        <p>Varying the speed and power of your shots can make you a more unpredictable opponent and keep your opponents on their toes. Here are a few ways you can change the speed of your shots:</p>
+                        <div className="d-flex align-items-start">
+                            <div className="circle-icon" style={{marginTop:'5px', marginRight:'15px'}}>1
+                            </div>
+                            <p>Use a lighter grip on your racket: By using a lighter grip on your racket, you’ll be able to hit softer shots that have less power and spin. This can be useful for hitting drop shots or for placing the shuttlecock in a specific part of the court.</p></div>
+                        <div className="d-flex align-items-start">
+                            <div className="circle-icon" style={{marginTop:'5px', marginRight:'15px'}}>2
+                            </div>
+                            <p>Add spin to the shuttlecock: By adding topspin or backspin to the shuttlecock, you’ll be able to slow it down and make it dip more after it crosses the net. This can be useful for hitting deceptive shots or for setting up a slower, more controlled rally.</p></div>
+                        <div className="d-flex align-items-start">
+                            <div className="circle-icon" style={{marginTop:'5px', marginRight:'15px'}}>3
+                            </div>
+                        <p>Hit the shuttlecock earlier or later in its descent: By hitting the shuttlecock earlier or later in its descent, you’ll be able to change the pace of the rally. Hitting the shuttlecock earlier will give it more power and speed, while hitting it later will give it less power and spin.</p></div>
+                        <p>In addition to these techniques, it’s also important to vary the placement of your shots. By hitting the shuttlecock to different parts of the court, you’ll be able to keep your opponents guessing and force them to move around the court.</p>
                     </Col>
                 </Row>
                 <Row className='mt-5'>
@@ -168,19 +168,19 @@ export default function guides() {
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>Stay positive</Accordion.Header>
                                 <Accordion.Body>
-                                Don’t let mistakes or missed shots get you down. Stay positive and believe in your ability to play well.
+                                    Don’t let mistakes or missed shots get you down. Stay positive and believe in your ability to play well.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
                                 <Accordion.Header>Take deep breaths</Accordion.Header>
                                 <Accordion.Body>
-                                Deep breaths can help you relax and calm your nerves. Take a few deep breaths before and during the rally to help you stay focused and composed.
+                                    Deep breaths can help you relax and calm your nerves. Take a few deep breaths before and during the rally to help you stay focused and composed.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
                                 <Accordion.Header>Visualize success:</Accordion.Header>
                                 <Accordion.Body>
-                                Before the rally, take a few seconds to visualize yourself hitting a great shot. This can help you stay focused and confident.
+                                    Before the rally, take a few seconds to visualize yourself hitting a great shot. This can help you stay focused and confident.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

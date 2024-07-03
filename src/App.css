@@ -291,6 +291,18 @@ ul {
 .close{
     background-color: rgb(179, 8, 8) !important;
 }
+.circle-icon {
+    align-items: center;
+    background-color: #6c757d;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 700;
+    height: 35px;
+    justify-content: center;
+    width: 55px;
+}
 
 /* large screens */
 @media (min-width: 1024px) {
