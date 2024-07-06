@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KarenCKL/SEG3525Project2Final/static/css/main.7215331d.css",
-    "main.js": "/KarenCKL/SEG3525Project2Final/static/js/main.e2c2babc.js",
+    "main.css": "/KarenCKL/SEG3525Project2Final/static/css/main.cf89ccf5.css",
+    "main.js": "/KarenCKL/SEG3525Project2Final/static/js/main.67f0b305.js",
     "static/js/453.1f10bbfe.chunk.js": "/KarenCKL/SEG3525Project2Final/static/js/453.1f10bbfe.chunk.js",
     "static/media/background.png": "/KarenCKL/SEG3525Project2Final/static/media/background.ba738bea4a14558d7b84.png",
     "static/media/E1.webp": "/KarenCKL/SEG3525Project2Final/static/media/E1.f99adb794a2248cc518f.webp",
@@ -33,12 +33,12 @@
     "static/media/linkedin.svg": "/KarenCKL/SEG3525Project2Final/static/media/linkedin.b41418e2d47157a606dadbbe7073cb5d.svg",
     "static/media/facebook.svg": "/KarenCKL/SEG3525Project2Final/static/media/facebook.9c77ac2740446eb282dfd7b913e45119.svg",
     "static/media/twitter-x.svg": "/KarenCKL/SEG3525Project2Final/static/media/twitter-x.58a2bae5bfd8b3525d8fd557d3b8d82e.svg",
-    "main.7215331d.css.map": "/KarenCKL/SEG3525Project2Final/static/css/main.7215331d.css.map",
-    "main.e2c2babc.js.map": "/KarenCKL/SEG3525Project2Final/static/js/main.e2c2babc.js.map",
+    "main.cf89ccf5.css.map": "/KarenCKL/SEG3525Project2Final/static/css/main.cf89ccf5.css.map",
+    "main.67f0b305.js.map": "/KarenCKL/SEG3525Project2Final/static/js/main.67f0b305.js.map",
     "453.1f10bbfe.chunk.js.map": "/KarenCKL/SEG3525Project2Final/static/js/453.1f10bbfe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7215331d.css",
-    "static/js/main.e2c2babc.js"
+    "static/css/main.cf89ccf5.css",
+    "static/js/main.67f0b305.js"
   ]
 }
