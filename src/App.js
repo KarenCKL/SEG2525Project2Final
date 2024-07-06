@@ -13,6 +13,7 @@ import Membership from './components/Membership';
 import Coaching from './components/Coaching';
 import Forum from './pages/forum';
 import Footer from './components/Footer';
+import i18n from './i18n';
 function App() {
     return (
         <Router>

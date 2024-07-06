@@ -29,7 +29,7 @@
 .nav-link {
   color: #a60341 !important;
   position: relative;
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 18px !important;
   text-transform: uppercase;
   font-weight: 500 !important;
@@ -124,11 +124,11 @@
 
 /*Join and login buttons */
 #bookIdbtn {
-  margin-right: 20px !important;
-  width: 120px !important;
+  margin-right: 15px !important;
+  width: 110px !important;
 }
 #loginIdbtn {
-  width: 120px !important;
+  width: 110px !important;
 }
 
 /* Footer */
