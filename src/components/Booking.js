@@ -36,7 +36,7 @@ export default function Booking() {
                                         </Form.Select>
                                     </Col>
                                     <Col className='mt-lg-2 pt-lg-3'>
-                                        <Button as={Link} to='/submit' variant="secondary" className='text-white py-1 px-1 capitalize mt-5' id="submitBtn" style={{ width: '300px' }}>Submit</Button>
+                                        <Button as={Link} to='' type='submit' variant="secondary" className='text-white py-1 px-1 capitalize mt-5' id="submitBtn" style={{ width: '300px' }}>Submit</Button>
                                     </Col>
                                 </Row>
                             </Card.Body>

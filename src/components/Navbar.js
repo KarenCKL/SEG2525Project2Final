@@ -35,8 +35,8 @@ const NavBar = () => {
                     </Nav>
                     <Button
                         onClick={changeLanguage}
-                        className='me-4 bg-transparent text-primary border-0'
-                        style={{ padding: '2px 2px', display: 'flex', alignItems: 'center' }}>
+                        className='me-4 bg-transparent text-primary border-0 languageBtn'
+                        style={{ padding: '2px 2px'}}>
                         <FontAwesomeIcon icon={faGlobe} size="lg" className='me-2' />
                         {i18n.language === 'en' ? 'FR' : 'EN'}
                     </Button>
