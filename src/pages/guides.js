@@ -33,31 +33,31 @@ export default function guides() {
                         </p>
                         <Accordion>
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>Boundaries:</Accordion.Header>
+                                <Accordion.Header>Boundaries</Accordion.Header>
                                 <Accordion.Body>
                                     The shuttlecock is out of bounds if it lands outside of the boundary lines of the court, or if it touches the ceiling or any other object above the court. The shuttlecock is also out of bounds if it lands on the line marking the boundary of the court.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                                <Accordion.Header>Doubles play: </Accordion.Header>
+                                <Accordion.Header>Doubles play </Accordion.Header>
                                 <Accordion.Body>
                                     In doubles play (where there are two players on each side), the serving order must be rotated after each game. Players must serve from the right service court when the score is even, and from the left service court when the score is odd.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
-                                <Accordion.Header>Faults: </Accordion.Header>
+                                <Accordion.Header>Faults </Accordion.Header>
                                 <Accordion.Body>
                                     A fault is committed when a player violates one of the rules of the game. Examples of faults include serving incorrectly, hitting the shuttlecock out of bounds, or hitting the shuttlecock before it has crossed the net. If a player commits a fault, their opponent wins the rally.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header>Scoring: </Accordion.Header>
+                                <Accordion.Header>Scoring </Accordion.Header>
                                 <Accordion.Body>
                                     A rally is won when the shuttlecock lands in your opponent’s court, or when your opponent hits the shuttlecock out of bounds or into the net. Points can only be scored by the serving side, and the first side to reach 21 points (with a margin of at least two points) wins the game.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="4">
-                                <Accordion.Header>Serves: </Accordion.Header>
+                                <Accordion.Header>Serves </Accordion.Header>
                                 <Accordion.Body>
                                     A serve must be hit diagonally across the court, and the shuttlecock must be hit below waist height on the serve. The server has two serves, and the serve must be returned by the receiver. If the receiver is unable to return the serve, the server wins the rally.
                                 </Accordion.Body>
@@ -178,7 +178,7 @@ export default function guides() {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header>Visualize success:</Accordion.Header>
+                                <Accordion.Header>Visualize success</Accordion.Header>
                                 <Accordion.Body>
                                     Before the rally, take a few seconds to visualize yourself hitting a great shot. This can help you stay focused and confident.
                                 </Accordion.Body>

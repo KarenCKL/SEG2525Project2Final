@@ -5,13 +5,18 @@ import background1 from '../assets/background1.jpeg';
 import background2 from '../assets/background.png';
 import background3 from '../assets/background4.jpg';
 import team from '../assets/team.jpg';
-import shop from '../assets/shopping.png';
-import shopMobile from '../assets/shoppingMobile.png';
+import shopEn from '../assets/shopping.png';
+import shopFr from '../assets/shoppingFR.png';
+import shopMobileEn from '../assets/shoppingMobile.png';
+import shopMobileFr from '../assets/shoppingMobileFR.png';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
+    const { t, i18n } = useTranslation();
+    const isEnglish = i18n.language === 'en';
 
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
@@ -24,9 +29,9 @@ function ControlledCarousel() {
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
-                            <Card.Title className='fs-3 text-start'>Join our Badminton Club</Card.Title>
-                            <Card.Text className='fs-5 pb-2 text-start'>Become a member and enjoy exclusive access to our facilities.</Card.Text>
-                            <Link to="/signup" className="btn btn-primary" style={{ width: '130px' }}>Join Now</Link>
+                            <Card.Title className='fs-3 text-start'>{t('ct1')}</Card.Title>
+                            <Card.Text className='fs-5 pb-2 text-start'>{t('ct11')}</Card.Text>
+                            <Link to="/signup" className="btn btn-primary" style={{ width: '130px' }}>{t('joinNow')}</Link>
                         </Card.Body>
                     </Card>
                 </Carousel.Caption>
@@ -36,9 +41,9 @@ function ControlledCarousel() {
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
-                            <Card.Title className='fs-3 text-start'>Already a Member</Card.Title>
-                            <Card.Text className='fs-5 pb-1 text-start'>Reserve a session to play with your friends or to practice with a coach.</Card.Text>
-                            <Link to="/booking" className="btn btn-primary" style={{ width: '130px' }}>Book Now</Link>
+                            <Card.Title className='fs-3 text-start'>{t('ct2')}</Card.Title>
+                            <Card.Text className='fs-5 pb-1 text-start'>{t('ct22')}</Card.Text>
+                            <Link to="/booking" className="btn btn-primary" style={{ width: '130px' }}>{t('ct222')}</Link>
                         </Card.Body>
                     </Card>
                 </Carousel.Caption>
@@ -48,9 +53,9 @@ function ControlledCarousel() {
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
-                            <Card.Title className='fs-3 text-start' >Learn the Game</Card.Title>
-                            <Card.Text className='fs-5 pb-1 text-start'>Explore our comprehensive guides and improve your badminton skills with expert tips and tutorials.</Card.Text>
-                            <Link to="/guides" className="btn btn-primary" style={{ width: '130px' }}>Read Guides</Link>
+                            <Card.Title className='fs-3 text-start' >{t('ct3')}</Card.Title>
+                            <Card.Text className='fs-5 pb-1 text-start'>{t('ct33')}</Card.Text>
+                            <Link to="/guides" className="btn btn-primary" style={{ width: '130px' }}>{t('ct333')}</Link>
                         </Card.Body>
                     </Card>
                 </Carousel.Caption>
@@ -60,23 +65,33 @@ function ControlledCarousel() {
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
-                            <Card.Title className='fs-3 text-start' >Join the Community</Card.Title>
-                            <Card.Text className='fs-5 pb-1 text-start'>Connect with fellow badminton enthusiasts, share your thoughts, and get advice in our forum.</Card.Text>
-                            <Link to="/forum" className="btn btn-primary" style={{ width: '130px' }}>Visit Forum</Link>
+                            <Card.Title className='fs-3 text-start' >{t('ct4')}</Card.Title>
+                            <Card.Text className='fs-5 pb-1 text-start'>{t('ct44')}</Card.Text>
+                            <Link to="/forum" className="btn btn-primary" style={{ width: '130px' }}>{t('ct444')}</Link>
                         </Card.Body>
                     </Card>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <div></div>
-                <img src={shop} style={{ width: '100%' }} alt="background of a badminton guide" className='background large-screen-image' />
-                <img src={shopMobile} style={{ width: '100%' }} alt="background of a badminton guide" className='background small-screen-image' />
+                <img
+                    src={isEnglish ? shopEn : shopFr}
+                    style={{ width: '100%' }}
+                    alt="background of a badminton guide"
+                    className='background large-screen-image'
+                />
+                <img
+                    src={isEnglish ? shopMobileEn : shopMobileFr}
+                    style={{ width: '100%' }}
+                    alt="background of a badminton guide"
+                    className='background small-screen-image'
+                />
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
-                            <Card.Title className='fs-3 text-start' >Shop for Gear</Card.Title>
-                            <Card.Text className='fs-5 pb-1 text-start'>Browse our collection of badminton equipment and accessories.</Card.Text>
-                            <Link to="/shop" className="btn btn-primary" style={{ width: '130px' }}>Shop Now</Link>
+                            <Card.Title className='fs-3 text-start' >{t('ct5')}</Card.Title>
+                            <Card.Text className='fs-5 pb-1 text-start'>{t('ct55')}</Card.Text>
+                            <Link to="/shop" className="btn btn-primary" style={{ width: '130px' }}>{t('ct555')}</Link>
                         </Card.Body>
                     </Card>
                 </Carousel.Caption>

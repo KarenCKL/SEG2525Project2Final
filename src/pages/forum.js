@@ -14,12 +14,13 @@ export default function forum() {
                     Here you can discuss anything related to badminton. Feel free to ask questions, share your thoughts and experiences, and connect with other badminton enthusiasts.
                 </p>
                 <div className='d-flex justify-content-end mb-2 mt-4'>
-                    <Button className='bg-secondary border-0' style={{width:'160px', padding:'8px'}}>Create a New Post</Button>
+                    <Button className='bg-secondary border-0' style={{ width: '160px', padding: '8px' }}>Create a New Post</Button>
                 </div>
                 <Row>
                     <Col>
                         <Card className='mt-2'>
                             <Card.Body>
+                                <h5 className='text-info pb-1 pt-1'>Looking to make friends</h5>
                                 <Row>
                                     <Row className='mt-2'>
                                         <Col md={1}>
@@ -71,6 +72,7 @@ export default function forum() {
                     <Col>
                         <Card className='mt-2'>
                             <Card.Body>
+                                <h5 className='text-info pb-1 pt-1'>Looking for a partner</h5>
                                 <Row>
                                     <Row className='mt-2'>
                                         <Col md={1}>
