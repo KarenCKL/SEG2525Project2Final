@@ -4,78 +4,75 @@ import { Col, Container, Row, Accordion } from 'react-bootstrap'
 import guide from '../assets/guide.jpeg';
 import chapter2 from '../assets/chapter2.jpg';
 import chapter4 from '../assets/chapter4.png';
+import { useTranslation } from 'react-i18next';
 export default function guides() {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const { t } = useTranslation();
     return (
         <div>
             <Container>
-                <h3 className='text-info text-center mt-5 fs-3'>The Ultimate Badminton Guide</h3>
+                <h3 className='text-info text-center mt-5 fs-3'>{t('ultimate')}</h3>
                 <Row className='mt-5'>
                     <Col md={4}>
                         <img src={guide} style={{ width: "100%", height: "90%" }} alt="image showing a racket" />
                     </Col>
                     <Col md={8}>
                         <p className='mt-xl-4 mt-1 pt-1 guide'>
-                            The Ultimate Badminton Guide is a comprehensive resource
-                            that covers everything you need to know about the game
-                            of badminton. From the basic rules and techniques to advanced
-                            strategies and tactics, this guide is designed to help players of all skill
-                            levels improve their game. Whether you're a beginner looking to learn the
-                            fundamentals or an experienced player seeking to refine your skills, this guide has you covered. With detailed explanations, helpful tips, and illustrative images, you'll gain a deeper understanding of the
-                            game and be able to take your badminton skills to the next level.
+                           {t('ultimate1')}
                         </p>
                     </Col>
                 </Row>
                 <Row className='mt-4'>
-                    <h5 className='text-secondary fs-4'>1. Learn the rules of the game</h5>
+                    <h5 className='text-secondary fs-4'>1. {t('ch1')}</h5>
                     <Col md={12}>
                         <p className='guide pt-2'>
-                            It’s important to understand the rules of badminton before you start playing, as this will help you play safely and fairly. Here are some key rules to know:
+                            {t('ch11')}
                         </p>
                         <Accordion>
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>Boundaries</Accordion.Header>
+                                <Accordion.Header>{t('boundaries')}</Accordion.Header>
                                 <Accordion.Body>
-                                    The shuttlecock is out of bounds if it lands outside of the boundary lines of the court, or if it touches the ceiling or any other object above the court. The shuttlecock is also out of bounds if it lands on the line marking the boundary of the court.
+                                   {t('boundaries1')}
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                                <Accordion.Header>Doubles play </Accordion.Header>
+                                <Accordion.Header>{t('double')} </Accordion.Header>
                                 <Accordion.Body>
-                                    In doubles play (where there are two players on each side), the serving order must be rotated after each game. Players must serve from the right service court when the score is even, and from the left service court when the score is odd.
+                                    {t('double1')}
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
-                                <Accordion.Header>Faults </Accordion.Header>
+                                <Accordion.Header>{t('faults')}</Accordion.Header>
                                 <Accordion.Body>
-                                    A fault is committed when a player violates one of the rules of the game. Examples of faults include serving incorrectly, hitting the shuttlecock out of bounds, or hitting the shuttlecock before it has crossed the net. If a player commits a fault, their opponent wins the rally.
+                                    {t('faults1')}
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header>Scoring </Accordion.Header>
+                                <Accordion.Header>{t('scoring')}</Accordion.Header>
                                 <Accordion.Body>
-                                    A rally is won when the shuttlecock lands in your opponent’s court, or when your opponent hits the shuttlecock out of bounds or into the net. Points can only be scored by the serving side, and the first side to reach 21 points (with a margin of at least two points) wins the game.
+                                    {t('scoring1')}
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="4">
-                                <Accordion.Header>Serves </Accordion.Header>
+                                <Accordion.Header>{t('serving')}</Accordion.Header>
                                 <Accordion.Body>
-                                    A serve must be hit diagonally across the court, and the shuttlecock must be hit below waist height on the serve. The server has two serves, and the serve must be returned by the receiver. If the receiver is unable to return the serve, the server wins the rally.
+                                    {t('serving1')}
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                    <h5 className='text-secondary fs-4 mb-4'>2. Practice your footwork</h5>
+                    <h5 className='text-secondary fs-4 mb-4'>2. {t('ch2')}</h5>
                     <Col md={4}>
                         <img src={chapter2} style={{ width: "100%", height: "100%" }} alt="image show 2 players" />
                     </Col>
                     <Col md={8}>
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>Court sprints</Accordion.Header>
+                                <Accordion.Header>{t('court')}</Accordion.Header>
                                 <Accordion.Body>
-                                    Sprint from one end of the court to the other, focusing on quick, light steps. This drill will help you improve your overall speed and endurance.
+                                   {t('court1')}
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">

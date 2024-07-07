@@ -6,8 +6,11 @@ import E2 from '../assets/E2.jpg';
 import E3 from '../assets/E3.jpg';
 import E4 from '../assets/E4.webp';
 import E5 from '../assets/E5.webp';
+import { useTranslation } from 'react-i18next';
+
 
 export default function Shop() {
+    const {t} = useTranslation();
     // Initial state for checkboxes
     const initialCheckboxes1 = [
         { isChecked: false, message: 'Racquets' },
@@ -208,11 +211,11 @@ export default function Shop() {
     return (
         <div>
             <Container>
-                <h3 className='text-info text-center mt-5 fs-3'>Shop</h3>
+                <h3 className='text-info text-center mt-5 fs-3'>{t('shop')}</h3>
                 <Row>
                     <Col>
                         <p className='guide mt-lg-1 mt-xl-4 mt-3 ms-2 fs-5 fst-italic'>
-                            Welcome to the shop! Here you can find a variety of products to help you improve your badminton skills. Whether you're looking for training equipment, apparel, or accessories, we've got you covered. Check out our selection below and start shopping today!
+                           {t('shopText')}
                         </p>
                     </Col>
                 </Row>
