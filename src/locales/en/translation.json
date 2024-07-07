@@ -23,5 +23,27 @@
   "ct444": "Join Forum",
   "ct5": "Shop for Gear",
   "ct55": "Browse our online shop to buy rackets, shuttles, and other badminton equipment.",
-  "ct555": "Shop Now"
+  "ct555": "Shop Now",
+  "aboutUs": "About Us",
+  "about": "The Ottawa Badminton Club is a premier badminton facility located in the heart of Ottawa. Founded in 1995, the Ottawa Badminton Club has a rich history of promoting the sport of badminton in the local community. Over the years, we have hosted numerous tournaments and events, attracting players from all over the region. Our commitment to excellence and passion for the game has made us a trusted name in the badminton community. With state-of-the-art courts and top-notch amenities, we provide a welcoming and inclusive environment for badminton enthusiasts of all ages and skill levels. Our club offers a range of programs and services, including professional coaching, league play, and social events. Whether you're a beginner looking to learn the basics or a seasoned player seeking competitive opportunities, the Ottawa Badminton Club is the perfect place to hone your skills, make new friends, and enjoy the sport you love. Join us today and be a part of our legacy!",
+  "amenities": "Our Amenities",
+  "parking": "Free Parking",
+  "parking1": "We offer free parking for all guests.",
+  "wheelchair": "Wheelchair Accessible",
+  "wheelchair1": "Our facility is wheelchair accessible.",
+  "changing": "Changing Rooms",
+  "changing1": "Changing rooms are available for your convenience.",
+  "wifi": "Free Wi-Fi",
+  "wifi1": "We offer free high speed internet to all guests.",
+  "location":"Our Location",
+  "address": "Located at 150 Louis Pasteur, Ottawa, Ontario, K1N 7P7",
+  "hours":"Opening Hours",
+  "monday":"Monday - Friday: 9:00 AM - 10:00 PM",
+  "saturday":"Saturday: 9:00 AM - 10:00 PM",
+  "sunday":"Sunday: 9:00 AM - 8:00 PM",
+  "email": "Email: ",
+  "tel": "Tel: ",
+  "copyright": "© 2021 Ottawa Badminton Club. All Rights Reserved.",
+  "follow": "Follow us on:"
+
 }
