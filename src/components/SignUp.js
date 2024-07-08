@@ -81,7 +81,7 @@ export default function SignUp() {
                                     type="text"
                                     placeholder="Enter Email Address"
                                 />
-                                <Form.Control.Feedback type="invalid">Please provide a valid email address</Form.Control.Feedback>
+                                <Form.Control.Feedback type="invalid">Invalid email address</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                         <Form.Group as={Col} md="6" controlId="validationCustom04">
