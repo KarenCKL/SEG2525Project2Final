@@ -6,7 +6,7 @@ export default function Location() {
     const { t } = useTranslation();
     return (
         <Container className='mb-5'>
-            <Row>
+            <Row className='gx-5'>
                 <div className="d-flex justify-content-center mb-4 mt-5 text-info fst-italic">
                     <h3>{t('location')}</h3>
                 </div>
