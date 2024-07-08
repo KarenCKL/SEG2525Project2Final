@@ -99,7 +99,7 @@ export default function SignUpNext() {
                                 className='mt-2'
                                 required
                                 type="text"
-                                placeholder="Enter your Postal Code"
+                                placeholder="A1A 1A1"
                             />
                             <Form.Control.Feedback type="invalid">Invalid Postal code</Form.Control.Feedback>
                         </Form.Group>
@@ -152,9 +152,9 @@ export default function SignUpNext() {
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder=""
+                                placeholder="Enter your CVV"
                             />
-                            <Form.Control.Feedback type="invalid">Invalid CVV</Form.Control.Feedback>
+                            <Form.Control.Feedback type="invalid">Invalid CVV- 3 digits numbers</Form.Control.Feedback>
                         </Form.Group>
                     </Row>
                     <Row className="mb-3">
