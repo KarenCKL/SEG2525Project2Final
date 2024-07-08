@@ -94,38 +94,17 @@ export default function SignUpNext() {
                             </FloatingLabel>
                         </Col>
                         <Form.Group as={Col} md="6" controlId="validationCustom4">
-                            <Form.Label>Phone Number</Form.Label>
+                            <Form.Label>Postal code</Form.Label>
                             <Form.Control
                                 className='mt-2'
                                 required
                                 type="text"
-                                placeholder="Enter Email Address"
+                                placeholder="Enter your Postal Code"
                             />
-                            <Form.Control.Feedback type="invalid">Invalid Email Address</Form.Control.Feedback>
+                            <Form.Control.Feedback type="invalid">Invalid Postal code</Form.Control.Feedback>
                         </Form.Group>
                     </Row>
-                    <Row className="mb-3">
-                        <Form.Group as={Col} md="6" controlId="validationCustom05">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control
-                                className='mt-2'
-                                required
-                                type="password"
-                                placeholder="Enter a Password"
-                            />
-                            <Form.Control.Feedback type="invalid">Invalid Password</Form.Control.Feedback>
-                        </Form.Group>
-                        <Form.Group as={Col} md="6" controlId="validationCustom06">
-                            <Form.Label>Confirm Password</Form.Label>
-                            <Form.Control
-                                className='mt-2'
-                                required
-                                type="password"
-                                placeholder="Confirm Password"
-                            />
-                            <Form.Control.Feedback type="invalid">Invalid Password</Form.Control.Feedback>
-                        </Form.Group>
-                    </Row>
+                   
                 </Form>
                 <h5 className='mb-4 text-info mt-4'>Subcription</h5>
                 <Form noValidate validated={validated} onSubmit={handleSubmit}>

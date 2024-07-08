@@ -18,7 +18,7 @@ export default function Login() {
         <Container>
             <Card className='p-5 mx-auto loginCard'>
                 <h4 className='text-info mb-4'>
-                    Login
+                    Log In
                 </h4>
                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
                     <Row className="mb-3">
@@ -50,7 +50,7 @@ export default function Login() {
                             <a href="#" className="text-info">Forget password?</a>
                         </Col>
                         <Col md="6" className="text-center pt-sm-3 pt-md-0">
-                            <Button type="submit" className='bg-secondary border-0' id="loginIdBtn">Login</Button>
+                            <Button type="submit" className='bg-secondary border-0' id="loginIdBtn">Log In</Button>
                         </Col>
                     </Row>
                     <Row>

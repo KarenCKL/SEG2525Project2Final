@@ -8,7 +8,7 @@ export default function Membership() {
             <section id="membership">
                 <Container>
                     <h3 className='text-info text-center mt-4 fs-3'>Memberships</h3>
-                    <p className='mt-xl-4 mt-3 mb-1 guide fst-italic text-center'>
+                    <p className='mt-xl-4 mt-3 mb-1 guide fst-italic'>
                         Join the Ottawa Badminton Club and enjoy unlimited access to our facilities and services. Choose from a variety of membership options to suit your needs.
                     </p>
                     <Row className='mt-2 mb-4'>
@@ -76,7 +76,7 @@ export default function Membership() {
                                 </Card.Body>
                                 <Card.Body>
                                     <div className='d-flex justify-content-center'>
-                                        <Button as={Link} to='/login' variant="secondary" className='text-white py-1 px-1 capitalize' id='bookIdbtn'>Login</Button>
+                                        <Button as={Link} to='/login' variant="secondary" className='text-white py-1 px-1 capitalize' id='bookIdbtn'>Log In</Button>
                                     </div>
                                 </Card.Body>
                             </Card>
