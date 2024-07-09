@@ -116,7 +116,7 @@ export default function SignUp() {
                                     value={formData.email}
                                     onChange={handleInputChange}
                                 />
-                                <Form.Control.Feedback type="invalid">Invalid email address</Form.Control.Feedback>
+                                <Form.Control.Feedback type="invalid">Please provide an email address</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                         <Form.Group as={Col} md="6" controlId="validationCustom04">
@@ -133,7 +133,7 @@ export default function SignUp() {
                                     value={formData.phone}
                                     onChange={handleInputChange}
                                 />
-                                <Form.Control.Feedback type="invalid">Invalid Phone Number</Form.Control.Feedback>
+                                <Form.Control.Feedback type="invalid">Please provide your phone number</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                     </Row>
@@ -152,7 +152,7 @@ export default function SignUp() {
                                     value={formData.password}
                                     onChange={handleInputChange}
                                 />
-                                <Form.Control.Feedback type="invalid">Invalid Password</Form.Control.Feedback>
+                                <Form.Control.Feedback type="invalid">Please enter a password, must contain a least a special character, digit, uppercase letter and 8 characters</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                         <Form.Group as={Col} md="6" controlId="validationCustom06">
@@ -169,7 +169,7 @@ export default function SignUp() {
                                     value={formData.confirmPassword}
                                     onChange={handleInputChange}
                                 />
-                                <Form.Control.Feedback type="invalid">Invalid Password</Form.Control.Feedback>
+                                <Form.Control.Feedback type="invalid">Please confirm your password</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                     </Row>
