@@ -10,6 +10,7 @@
     "coaching": "Coaching",
     "joinNow": "Rejoignez",
     "login": "Connectez",
+    "FAQ":"Foire Aux Questions",
     "ct1": "Rejoignez notre Club de Badminton",
     "ct11": "Devenez membre et profitez d’un accès exclusif à nos installations.",
     "ct2":"Déjà Membre",
@@ -63,5 +64,14 @@
     "ch2":"Pratiquez votre jeu de jambes",
     "ch22":"Le jeu de jambes est un aspect essentiel du badminton qui peut faire la différence entre gagner et perdre un match.\nVoici quelques exercices pour améliorer votre jeu de jambes:",
     "court":"Exercices de Court",
-    "court1":"Les exercices de court sont un excellent moyen d'améliorer votre vitesse et votre agilité sur le terrain.\nEssayez de faire des sprints courts d'un coin à l'autre du terrain pour améliorer votre vitesse et votre réactivité."
+    "court1":"Les exercices de court sont un excellent moyen d'améliorer votre vitesse et votre agilité sur le terrain.\nEssayez de faire des sprints courts d'un coin à l'autre du terrain pour améliorer votre vitesse et votre réactivité.",
+    "Question1": "Comment puis-je devenir membre du club de badminton?",
+    "Question2": "Quels sont les avantages de l'adhésion au club de badminton?",
+    "Question3": "Quels sont les services de coaching disponibles au club de badminton?",
+    "Question4": "Comment puis-je réserver un court au club de badminton?",
+    "Question5": "Quels sont les équipements disponibles à la boutique du club de badminton?",
+    "Question6": "Comment puis-je améliorer mes compétences en badminton ?",
+    "Question7": "Quelles sont les règles du jeu de badminton?",
+    "Question8": "Comment puis-je rejoindre le forum du club de badminton?",
+    "Question9": "Le club de badminton organise-t-il des événements sociaux pour les membres?"
 }

@@ -9,6 +9,7 @@
   "membership": "Membership",
   "coaching": "Coaching",
   "joinNow": "Join Now",
+  "FAQ": "Frequently Asked Questions",
   "login": "Log in",
   "ct1": "Join our Badminton Club",
   "ct11": "Become a member and enjoy exclusive access to our facilities.",
@@ -63,5 +64,14 @@
   "ch2": "Practice your footwork",
   "ch22": "Footwork is an essential aspect of badminton that can greatly impact your performance on the court. Good footwork allows you to move quickly and efficiently, reach shots effectively, and maintain balance during rallies. Here are some tips to improve your footwork:",
   "court": "Court sprints",
-  "court1": "Court sprints are a great way to improve your speed and agility on the court. Start by standing at one end of the court and sprinting to the other end as quickly as possible. Focus on pushing off with your back foot and driving your knees up to generate power."
+  "court1": "Court sprints are a great way to improve your speed and agility on the court. Start by standing at one end of the court and sprinting to the other end as quickly as possible. Focus on pushing off with your back foot and driving your knees up to generate power.",
+  "Question1": "How do I become a member of the Ottawa Badminton Club?",
+  "Question2": "What are the benefits of becoming a member?",
+  "Question3": "How do I book a court at the Ottawa Badminton Club?",
+  "Question4": "Do you offer coaching services for beginners?",
+  "Question5": "What equipment do I need to play badminton?",
+  "Question6": "How do I improve my badminton skills?",
+  "Question7": "What are the rules of badminton?",
+  "Question8": "How do I join the Ottawa Badminton Club forum?",
+  "Question9": "Do you offer social events for club members?"
 }

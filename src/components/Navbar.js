@@ -31,12 +31,13 @@ const NavBar = () => {
                         <NavDropdown title={t('subscription')} id="basic-nav-dropdown">
                             <NavDropdown.Item as={Link} to="/membership">{t('membership')}</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/coaching">{t('coaching')}</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/FAQ">FAQ</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     <Button
                         onClick={changeLanguage}
                         className='me-4 bg-transparent text-primary border-0 languageBtn'
-                        style={{ padding: '2px 2px'}}>
+                        style={{ padding: '2px 2px' }}>
                         <FontAwesomeIcon icon={faGlobe} size="lg" className='me-2' />
                         {i18n.language === 'en' ? 'FR' : 'EN'}
                     </Button>

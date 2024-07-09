@@ -13,6 +13,7 @@ import Membership from './components/Membership';
 import Coaching from './components/Coaching';
 import Forum from './pages/forum';
 import Footer from './components/Footer';
+import FAQ from './pages/faq';
 import i18n from './i18n';
 function App() {
     return (
@@ -31,6 +32,7 @@ function App() {
                         <Route path="/membership" element={<Membership />} />
                         <Route path="/coaching" element={<Coaching />} />
                         <Route path="/forum" element={<Forum />} />
+                        <Route path="/faq" element={<FAQ />} />
                     </Routes>
                 </div>
                 <Footer />
