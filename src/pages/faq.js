@@ -77,13 +77,13 @@ export default function faq() {
                 <Col md={12} className='mt-4 pt-2'>
                     <Card className='bg-secondary-subtle'>
                         <Card.Body>
-                            <Card.Title><h3 className='text-center mt-3'>Any other question?</h3></Card.Title>
+                            <Card.Title><h3 className='text-center mt-3'>{t('other')}</h3></Card.Title>
                             <Card.Text className='mt-3 fs-4'>
                                 <div className='d-flex justify-content-center'>
-                                    <p className='me-4'>Feel free to contact us via : </p>
+                                    <p className='me-4'>{t('contact')} </p>
                                     <p><FontAwesomeIcon icon={faEnvelope} className='me-3' /></p>
                                     <p><a href="mailto:info@badmintonClub.ca" className="text-black me-4" id='emailFooter'> info@badmintonClub.ca</a></p>
-                                    <p>or</p>
+                                    <p>{t('or')}</p>
                                     <p><FontAwesomeIcon icon={faPhone} className='me-3 ms-4' /></p>
                                     <p><a href="phoneto: +1 (234) 567-890" className="text-black" id='emailFooter'> + 1 (234) 567-890</a></p>
                                 </div>
