@@ -71,16 +71,14 @@ export default function faq() {
                 </Col>
             </Row>
             <Row className='mt-4 mb-5'>
-                {/* <Col md={4}>
-                    <img src={image} style={{ width: '100%' }} alt="" />
-                </Col> */}
+    
                 <Col md={12} className='mt-4 pt-2'>
                     <Card className='bg-secondary-subtle'>
                         <Card.Body>
                             <Card.Title><h3 className='text-center mt-3'>{t('other')}</h3></Card.Title>
                             <Card.Text className='mt-3 fs-4'>
                                 <div className='d-flex justify-content-center'>
-                                    <p className='me-4'>{t('contact')} </p>
+                                    <p className='me-4 ms-0'>{t('contact')} </p>
                                     <p><FontAwesomeIcon icon={faEnvelope} className='me-3' /></p>
                                     <p><a href="mailto:info@badmintonClub.ca" className="text-black me-4" id='emailFooter'> info@badmintonClub.ca</a></p>
                                     <p>{t('or')}</p>
