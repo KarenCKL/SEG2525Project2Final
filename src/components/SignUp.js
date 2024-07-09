@@ -111,12 +111,12 @@ export default function SignUp() {
                                 <Form.Control
                                     required
                                     type="text"
-                                    placeholder="johnDoe@gmail.com"
+                                    placeholder="john@gmail.com"
                                     name="email"
                                     value={formData.email}
                                     onChange={handleInputChange}
                                 />
-                                <Form.Control.Feedback type="invalid">Please provide an email address</Form.Control.Feedback>
+                                <Form.Control.Feedback type="invalid">Please provide a valid email address</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                         <Form.Group as={Col} md="6" controlId="validationCustom04">
