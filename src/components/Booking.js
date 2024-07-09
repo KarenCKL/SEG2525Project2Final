@@ -1,9 +1,18 @@
 import React from 'react';
-import { Container, Row, Col, Form, Card, Button, Table, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Form, Card, Button, Table, Alert, Popover } from 'react-bootstrap';
 import court from '../assets/court1.jpg';
 import { Link } from 'react-router-dom';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+const popover = (
+    <Popover id="popover-basic">
+        <Popover.Body>
+            Select a date, time, and available session.
+        </Popover.Body>
+    </Popover>
+);
 
 export default function Booking() {
+
     return (
         <div>
             <Container className='mt-5 mb-5'>
@@ -36,7 +45,9 @@ export default function Booking() {
                                         </Form.Select>
                                     </Col>
                                     <Col className='mt-lg-2 pt-lg-3'>
-                                        <Button as={Link} to='' type='submit' variant="secondary" className='text-white py-1 px-1 capitalize mt-5' id="submitBtn" style={{ width: '300px' }}>Submit</Button>
+                                        <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
+                                            <Button as={Link} to='' type='submit' variant="secondary" className='text-white py-1 px-1 capitalize mt-5' id="submitBtn" style={{ width: '300px' }}>Submit</Button>
+                                        </OverlayTrigger>
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -75,8 +86,8 @@ export default function Booking() {
                                 <tr>
                                     <td><b>10:00-12:00</b></td>
                                     <td colSpan="4" className='text-center open pt-3'>Open Play</td>
-                                    <td rowSpan="3" className='text-center intermediate' style={{paddingTop:'70px'}}>Intermediate Coaching</td>
-                                    <td rowSpan="3" className='text-center advanced' style={{paddingTop:'70px'}}>Advanced Coaching</td>
+                                    <td rowSpan="3" className='text-center intermediate' style={{ paddingTop: '70px' }}>Intermediate Coaching</td>
+                                    <td rowSpan="3" className='text-center advanced' style={{ paddingTop: '70px' }}>Advanced Coaching</td>
                                 </tr>
                                 <tr>
                                     <td><b>12:00-14:00</b></td>
@@ -88,19 +99,19 @@ export default function Booking() {
                                 <tr>
                                     <td><b>14:00-16:00</b></td>
                                     <td rowSpan="2" className='text-center advanced pt-5'>Advanced Coaching</td>
-                                    <td rowSpan="3" className='text-center beginner' style={{paddingTop:'70px'}}>Beginner Coaching</td>
-                                    <td rowSpan="3" className='text-center advanced' style={{paddingTop:'70px'}}>Advanced Coaching</td>
+                                    <td rowSpan="3" className='text-center beginner' style={{ paddingTop: '70px' }}>Beginner Coaching</td>
+                                    <td rowSpan="3" className='text-center advanced' style={{ paddingTop: '70px' }}>Advanced Coaching</td>
                                 </tr>
                                 <tr>
                                     <td><b>16:00-18:00</b></td>
                                     <td rowSpan="2" className='text-center beginner pt-5'>Beginner Coaching</td>
                                     <td rowSpan="2" className='text-center open pt-5'>Open Play</td>
                                     <td colSpan="2" className='text-center open pt-4'>Open Play</td>
-        
+
                                 </tr>
                                 <tr>
                                     <td><b>18:00-20:00</b></td>
-                                    <td rowSpan="2" className='text-center intermediate'style={{paddingTop:'40px'}}>Intermediate Coaching</td>
+                                    <td rowSpan="2" className='text-center intermediate' style={{ paddingTop: '40px' }}>Intermediate Coaching</td>
                                     <td colSpan="2" className='text-center intermediate pt-4'>Intermediate Coaching</td>
                                 </tr>
                                 <tr>

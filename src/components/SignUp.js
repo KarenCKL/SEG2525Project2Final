@@ -1,20 +1,46 @@
 import React from 'react'
 import { Container, Row, Col, Form, Card, Button, InputGroup } from 'react-bootstrap';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEnvelope, faPhone, faLock } from '@fortawesome/free-solid-svg-icons';
 export default function SignUp() {
     const [validated, setValidated] = useState(false);
+    const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        password: '',
+        confirmPassword: ''
+    });
+
     const navigate = useNavigate();
+
+    useEffect(() => {
+        // Load saved data from localStorage
+        const savedData = JSON.parse(localStorage.getItem('signUpData'));
+        if (savedData) {
+            setFormData(savedData);
+        }
+    }, []);
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prevState => {
+            const newFormData = { ...prevState, [name]: value };
+            // Save data to localStorage
+            localStorage.setItem('signUpData', JSON.stringify(newFormData));
+            return newFormData;
+        });
+    };
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
-        }
-        else {
+        } else {
             // Navigate to the next page only if the form is valid
             navigate('/signupnext');
         }
@@ -50,6 +76,9 @@ export default function SignUp() {
                                     required
                                     type="text"
                                     placeholder="Enter First name"
+                                    name="firstName"
+                                    value={formData.firstName}
+                                    onChange={handleInputChange}
                                 />
                                 <Form.Control.Feedback type="invalid">Please provide a first name.</Form.Control.Feedback>
                             </InputGroup>
@@ -64,6 +93,9 @@ export default function SignUp() {
                                     required
                                     type="text"
                                     placeholder="Enter Last name"
+                                    name="lastName"
+                                    value={formData.lastName}
+                                    onChange={handleInputChange}
                                 />
                                 <Form.Control.Feedback type="invalid">Please provide a last name.</Form.Control.Feedback>
                             </InputGroup>
@@ -79,7 +111,10 @@ export default function SignUp() {
                                 <Form.Control
                                     required
                                     type="text"
-                                    placeholder="Enter Email Address"
+                                    placeholder="johnDoe@gmail.com"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleInputChange}
                                 />
                                 <Form.Control.Feedback type="invalid">Invalid email address</Form.Control.Feedback>
                             </InputGroup>
@@ -94,6 +129,9 @@ export default function SignUp() {
                                     required
                                     type="text"
                                     placeholder="Enter Phone Number"
+                                    name="phone"
+                                    value={formData.phone}
+                                    onChange={handleInputChange}
                                 />
                                 <Form.Control.Feedback type="invalid">Invalid Phone Number</Form.Control.Feedback>
                             </InputGroup>
@@ -110,6 +148,9 @@ export default function SignUp() {
                                     required
                                     type="password"
                                     placeholder="Enter a Password"
+                                    name="password"
+                                    value={formData.password}
+                                    onChange={handleInputChange}
                                 />
                                 <Form.Control.Feedback type="invalid">Invalid Password</Form.Control.Feedback>
                             </InputGroup>
@@ -124,6 +165,9 @@ export default function SignUp() {
                                     required
                                     type="password"
                                     placeholder="Confirm Password"
+                                    name="confirmPassword"
+                                    value={formData.confirmPassword}
+                                    onChange={handleInputChange}
                                 />
                                 <Form.Control.Feedback type="invalid">Invalid Password</Form.Control.Feedback>
                             </InputGroup>
@@ -137,5 +181,6 @@ export default function SignUp() {
                 </Form>
             </Card>
         </Container>
-    );
+    )
+   
 }
