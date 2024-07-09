@@ -128,7 +128,7 @@ export default function SignUp() {
                                 <Form.Control
                                     required
                                     type="text"
-                                    placeholder="Enter Phone Number"
+                                    placeholder="+1 613-456-7890"
                                     name="phone"
                                     value={formData.phone}
                                     onChange={handleInputChange}
