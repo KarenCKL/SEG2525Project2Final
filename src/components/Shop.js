@@ -181,7 +181,7 @@ export default function Shop() {
                     {paginatedProducts.map((item, index) => (
                         <Col key={index} md={6}>
                             <Card className='mt-md-4 mb-3 mb-md-4'>
-                                <Card.Img variant="top" src={item.image}/>
+                                <Card.Img variant="top" src={item.image} alt='descriptive image'/>
                                 <Card.Body className='ps-4 pt-4'>
                                     <Card.Title>{item.name}</Card.Title>
                                     <Card.Text>{item.description}</Card.Text>

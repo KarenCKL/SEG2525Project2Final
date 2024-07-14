@@ -24,7 +24,7 @@ export default function forum() {
                                 <Row>
                                     <Row className='mt-2'>
                                         <Col md={1}>
-                                            <img src={player1} style={{ width: "100%", border: "1px solid black" }} alt="image showing face of a player" />
+                                            <img src={player1} style={{ width: "100%", border: "1px solid black" }} alt="image of the player" />
                                         </Col>
                                         <Col md={8}>
                                             <p>
@@ -34,7 +34,7 @@ export default function forum() {
                                     </Row>
                                     <Row>
                                         <Col md={1}>
-                                            <img src={player6} style={{ width: "100%", border: "1px solid black", marginTop: "15px" }} alt="image showing face of a player" />
+                                            <img src={player6} style={{ width: "100%", border: "1px solid black", marginTop: "15px" }} alt="image of the player" />
                                         </Col>
                                         <Col>
                                             <p className='mt-3'>
@@ -44,7 +44,7 @@ export default function forum() {
                                     </Row>
                                     <Row>
                                         <Col md={1}>
-                                            <img src={player7} style={{ width: "100%", border: "1px solid black", marginTop: "15px" }} alt="image showing face of a player" />
+                                            <img src={player7} style={{ width: "100%", border: "1px solid black", marginTop: "15px" }} alt="image of the player" />
                                         </Col>
                                         <Col>
                                             <p className='mt-3 pb-4'>
@@ -76,7 +76,7 @@ export default function forum() {
                                 <Row>
                                     <Row className='mt-2'>
                                         <Col md={1}>
-                                            <img src={player3} style={{ width: "100%", border: "1px solid black" }} alt="image showing face of a player" />
+                                            <img src={player3} style={{ width: "100%", border: "1px solid black" }} alt="image of the player" />
                                         </Col>
                                         <Col md={8}>
                                             <p>
@@ -86,7 +86,7 @@ export default function forum() {
                                     </Row>
                                     <Row>
                                         <Col md={1}>
-                                            <img src={player4} style={{ width: "100%", border: "1px solid black", marginTop: "15px" }} alt="image showing face of a player" />
+                                            <img src={player4} style={{ width: "100%", border: "1px solid black", marginTop: "15px" }} alt="image of the player" />
                                         </Col>
                                         <Col>
                                             <p className='mt-3 pb-4'>

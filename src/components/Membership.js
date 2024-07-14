@@ -64,7 +64,7 @@ export default function Membership() {
                     </div>
                     <Row className='mt-5 pb-3'>
                         <Col md={4}>
-                            <img src={image} style={{ width: '100%' }} alt="" />
+                            <img src={image} style={{ width: '100%' }} alt="image of a badminton court with players" />
                         </Col>
                         <Col md={4} className='mt-4 pt-2'>
                             <Card>

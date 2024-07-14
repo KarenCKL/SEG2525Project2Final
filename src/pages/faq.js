@@ -1,7 +1,6 @@
 import React from 'react'
-import { Col, Container, Row, Accordion, Card, Button } from 'react-bootstrap'
+import { Col, Container, Row, Accordion, Card} from 'react-bootstrap'
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 export default function faq() {
