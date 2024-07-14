@@ -1,11 +1,12 @@
 {   
     "clubName": "Ottawa Badminton Club",
     "home": "Accueil",
+    "Resources": "Ressources",
     "guides": "Guides",
     "forum": "Forum",
     "shop": "Boutique",
     "booking": "Réservation",
-    "subscription": "Abonnement",
+    "service": "Services",
     "membership": "Adhésion",
     "coaching": "Coaching",
     "joinNow": "Rejoignez",

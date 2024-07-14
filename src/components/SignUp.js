@@ -111,7 +111,7 @@ export default function SignUp() {
                                 <Form.Control
                                     required
                                     type="text"
-                                    placeholder="john@gmail.com"
+                                    placeholder="user@example.com"
                                     name="email"
                                     value={formData.email}
                                     onChange={handleInputChange}

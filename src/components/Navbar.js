@@ -24,15 +24,17 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto py-0 pe-3">
                         {/* <Nav.Link as={Link} to='/' id="HomeLink" className="capitalize">{t('home')}</Nav.Link> */}
-                        <Nav.Link as={Link} to='/guides' className="capitalize">{t('guides')}</Nav.Link>
-                        <Nav.Link as={Link} to='/forum' className="capitalize">{t('forum')}</Nav.Link>
-                        <Nav.Link as={Link} to='/shop' className="capitalize">{t('shop')}</Nav.Link>
-                        <Nav.Link as={Link} to='/booking' className="capitalize">{t('booking')}</Nav.Link>
-                        <NavDropdown title={t('subscription')} id="basic-nav-dropdown">
-                            <NavDropdown.Item as={Link} to="/membership">{t('membership')}</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/coaching">{t('coaching')}</NavDropdown.Item>
+                        <NavDropdown title={t('Resources')} id="basic-nav-dropdown">
+                            <NavDropdown.Item as={Link} to="/guides">{t('guides')}</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/forum">{t('forum')}</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/FAQ">FAQ</NavDropdown.Item>
                         </NavDropdown>
+                        <NavDropdown title={t('service')} id="basic-nav-dropdown">
+                            <NavDropdown.Item as={Link} to="/membership">{t('membership')}</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/coaching">{t('coaching')}</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/booking">{t('booking')}</NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link as={Link} to='/shop' className="capitalize">{t('shop')}</Nav.Link>
                     </Nav>
                     <Button
                         onClick={changeLanguage}
