@@ -25,7 +25,7 @@ function ControlledCarousel() {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} style={{ width: '100%', margin: '0 auto', position: 'relative' }} className='mt-3'>
             <Carousel.Item>
-                <img src={background1} style={{ width: '100%' }} alt="background of the beach and sea" className='background' />
+                <img src={background1} style={{ width: '100%' }} alt="background image" className='background' />
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
@@ -37,7 +37,7 @@ function ControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={background2} style={{ width: '100%' }} alt="background of a badminton court" className='background' />
+                <img src={background2} style={{ width: '100%' }} alt="background image" className='background' />
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
@@ -49,7 +49,7 @@ function ControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={background3} style={{ width: '100%' }} alt="background of a badminton guide" className='background' />
+                <img src={background3} style={{ width: '100%' }} alt="background image" className='background' />
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
@@ -61,7 +61,7 @@ function ControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={team} style={{ width: '100%' }} alt="background of a badminton guide" className='background' />
+                <img src={team} style={{ width: '100%' }} alt="background image" className='background' />
                 <Carousel.Caption className="carousel-caption-custom">
                     <Card className="bg-overlay text-white card-fixed-width">
                         <Card.Body className="d-flex flex-column">
