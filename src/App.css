@@ -124,11 +124,11 @@
 
 /*Join and login buttons */
 #bookIdbtn {
-  margin-right: 15px !important;
-  width: 110px !important;
+  margin-right: 25px !important;
+  width: 120px !important;
 }
 #loginIdbtn {
-  width: 110px !important;
+  width: 120px !important;
 }
 
 /* Footer */

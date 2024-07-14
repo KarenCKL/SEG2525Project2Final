@@ -11,6 +11,10 @@
   "coaching": "Coaching",
   "joinNow": "Join Now",
   "FAQ": "Frequently Asked Questions",
+  "logoAlt": "Ottawa Badminton Club Logo",
+  "toggleNavigation": "Toggle Navigation",
+  "switchToFrench": "Switch to French",
+  "switchToEnglish": "Switch to English",
   "login": "Log in",
   "ct1": "Join our Badminton Club",
   "ct11": "Become a member and enjoy exclusive access to our facilities.",
@@ -86,5 +90,5 @@
   "answer9": "Yes, we offer a variety of social events for club members, including tournaments, social nights, and special events. These events provide an opportunity to meet other players, have fun, and enjoy the camaraderie of the badminton community.",
   "other": "Any other question?",
   "contact": "Feel free to contact us via :",
-  "or":"or"
+  "or": "or"
 }
