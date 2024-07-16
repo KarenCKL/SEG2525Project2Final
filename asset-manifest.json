@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SEG3525Project2Final/static/css/main.b4be7c62.css",
-    "main.js": "/SEG3525Project2Final/static/js/main.9e19b135.js",
+    "main.js": "/SEG3525Project2Final/static/js/main.ea56e14e.js",
     "static/js/453.1f10bbfe.chunk.js": "/SEG3525Project2Final/static/js/453.1f10bbfe.chunk.js",
     "static/media/background.png": "/SEG3525Project2Final/static/media/background.ba738bea4a14558d7b84.png",
     "static/media/E1.webp": "/SEG3525Project2Final/static/media/E1.f99adb794a2248cc518f.webp",
@@ -36,11 +36,11 @@
     "static/media/facebook.svg": "/SEG3525Project2Final/static/media/facebook.9c77ac2740446eb282dfd7b913e45119.svg",
     "static/media/twitter-x.svg": "/SEG3525Project2Final/static/media/twitter-x.58a2bae5bfd8b3525d8fd557d3b8d82e.svg",
     "main.b4be7c62.css.map": "/SEG3525Project2Final/static/css/main.b4be7c62.css.map",
-    "main.9e19b135.js.map": "/SEG3525Project2Final/static/js/main.9e19b135.js.map",
+    "main.ea56e14e.js.map": "/SEG3525Project2Final/static/js/main.ea56e14e.js.map",
     "453.1f10bbfe.chunk.js.map": "/SEG3525Project2Final/static/js/453.1f10bbfe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4be7c62.css",
-    "static/js/main.9e19b135.js"
+    "static/js/main.ea56e14e.js"
   ]
 }
