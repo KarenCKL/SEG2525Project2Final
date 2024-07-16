@@ -13,7 +13,7 @@ export default function Location() {
                 <Col lg={8}>
                     <div>
                         <div className="d-flex pb-3">
-                            <h5>{t('address')}</h5>
+                        <h2 className='text-center h5'>{t('address')}</h2> {/* Use h2 for semantic structure, style it as h5 */}
                         </div>
                         <iframe
                             alt="Ottawa Badminton Club Location"
@@ -28,8 +28,7 @@ export default function Location() {
                     </div>
                 </Col>
                 <Col lg={4} className='mt-5 ps-lg-3 d-flex flex-column align-items-center bg-secondary-subtle'>
-                    <div className="pb-3 mt-lg-4 mt-4"><h4>
-                        {t('hours')}</h4></div>
+                    <div className="pb-3 mt-lg-4 mt-4"><h2 className='text-center h4'>{t('hours')}</h2> {/* Use h2 for semantic structure, style it as h5 */}</div>
                     <div className="pb-2">
                         <p className="fs-5">{t('monday')}</p>
                         <p className="fs-5">{t('saturday')}</p>
