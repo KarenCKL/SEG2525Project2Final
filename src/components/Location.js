@@ -16,6 +16,7 @@ export default function Location() {
                             <h5>{t('address')}</h5>
                         </div>
                         <iframe
+                            alt="Ottawa Badminton Club Location"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.451558405615!2d-75.68254308447863!3d45.420066879100094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05a77b5e6c27%3A0x36e89c445bb0a60a!2s150%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%201A2%2C%20Canada!5e0!3m2!1sen!2sus!4v1685382636092!5m2!1sen!2sus"
                             width="100%"
                             height="370"
